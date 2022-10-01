@@ -35,13 +35,13 @@ Object.defineProperty(NextImage, 'default', {
   value: (props) => <OriginalNextImage {...props} unoptimized />,
 });
 
-export const decorators = [
-  (Story) => (
-    <AuthProvider>
-      <Story />
-    </AuthProvider>
-  ),
-];
+// export const decorators = [
+//   (Story) => (
+//     <AuthProvider>
+//       <Story />
+//     </AuthProvider>
+//   ),
+// ];
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
